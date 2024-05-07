@@ -31,6 +31,7 @@ public class Familia {
             Animal hijo= new Animal();
             hijo.nombre=nombre;
             hijo.peso=1;
+
             double random = Math.random();
             if(random<0.5){
                 hijo.genero="F";
@@ -39,8 +40,6 @@ public class Familia {
             }
             hijo=hijo;
 
-        }else{
-            System.out.println("Aun no puedes tener hijos");
         }
 
     }
